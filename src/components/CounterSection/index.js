@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Counter from './../Counter';
-import styles from './CounterSection.module.css'
+import styles from './CounterSection.module.scss'
 
 class CounterSection extends Component {
   constructor(props) {

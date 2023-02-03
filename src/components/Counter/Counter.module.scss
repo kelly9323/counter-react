@@ -1,5 +1,8 @@
+@use 'src/common/styles/mixins' as m;
+
+$text-color:white;
 .header{
-    color:white;
+    color:$text-color;
     font-size: 2rem;
     margin: 0;
 }
@@ -13,6 +16,6 @@
 }
 .button:hover{
     background-color: black;
-    color:white;
-    transition: all 300ms ease-in-out;
+    color:$text-color;
+    @include m.transition(all, 300ms , ease-in-out )
 }
